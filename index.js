@@ -7,7 +7,7 @@ const packagelock = require("./package-lock.json");
 const bot = new Discord.Client({disableEveryone: true});
 
 
-bot.login(botconfig.token);
+bot.login(process.env.botconfig.token);
 bot.on("ready", async () => {
 console.log(`${bot.user.username} is online!`);
 bot.user.setActivity("Illegal Poker");
