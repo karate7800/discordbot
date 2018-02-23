@@ -1,15 +1,25 @@
 {
-  "name": "discordbot",
-  "version": "1.0.0",
-  "description": "A good bot",
+
+  "name": "Test",
+
+  "description": "Test",
+
+  "version": "0.0.0",
+
   "main": "index.js",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+    "start": "node index.js"
+
   },
-  "license": "ISC",
+
   "dependencies": {
-    "discord.js": "^11.3.0",
-    "opusscript": "0.0.6"
-  },
-  "author": "hi"
+
+    "discord.js": "11.1.0",
+
+    "request": "2.81.0"
+
+  }
+
 }
